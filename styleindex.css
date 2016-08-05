@@ -1,5 +1,5 @@
 
-
+/*posicionamento do bloco de links*/
 div#menu{
 
 	width: 800px;
@@ -12,13 +12,11 @@ div#menu ul {
 	width: 800px;
 	height: 25px;
 	border: 4px solid black;
-	;
-
-
 }
 div#menu ul li{
 	display: inline;
 }
+/*edição do texto-link*/
 div#menu ul li a{
 	text-decoration: none;
 	letter-spacing: 5px;
@@ -28,6 +26,7 @@ div#menu ul li a{
 	color:black;
 	font-weight: 50;
 }
+/*efeito quando passa a seta no link*/
 div#menu ul li a:hover{
 	background-color: #800000;
 	width: 600px;
@@ -41,6 +40,7 @@ div.logoo img.logo{
 	margin-left: 550px;
 	border:2px black solid;
 }
+
 body{
 	line-height: 25px;
 }
