@@ -3,15 +3,19 @@
 div#menu{
 
 	width: 800px;
-	height: 25px;
-	margin-left: 300px;
-	margin-top: 70px;
+	height: 35px;
+	margin-left: 100px;
+	margin-top: 25px;
+	margin: auto;
+	
+
 }
 
 div#menu ul { 
 	width: 800px;
-	height: 25px;
+	height: 35px;
 	border: 4px solid black;
+
 }
 div#menu ul li{
 	display: inline;
@@ -21,26 +25,48 @@ div#menu ul li a{
 	text-decoration: none;
 	letter-spacing: 5px;
 	font-family: tahoma;
-	font-size: 13px;
-	padding: 14px 30px;
+	font-size: 14px;
+	padding: 20px 30px;
 	color:black;
 	font-weight: 50;
+
 }
 /*efeito quando passa a seta no link*/
 div#menu ul li a:hover{
 	background-color: #800000;
 	width: 600px;
-	height: 25px;
-	padding: 14px 14px 20px 20px;
+	height: 35px;
+	padding: 14px 40px;
+
 }
 
 div.logoo img.logo{
 
-	margin-top: 20px; 
-	margin-left: 550px;
-	border:2px black solid;
+	margin-top: 25px; 
+	margin-left: 350px;
+	border-radius: 100%;
 }
 
 body{
-	line-height: 25px;
+	line-height: 35px;
+	margin: auto;
+	width: 1030px;
+	background-attachment: fixed;
+}
+.parag{
+	background-color:#D3D3D3;
+}
+table{
+	background-color:0;
+	margin-top: 45px;
+
+}
+div table caption#tablehead {
+	font-size: 25px;
+	font-family: tahoma;
+	background-color: #D3D3D3;
+}
+div table caption#tablehead tr td a:hover{
+	color:white;
+
 }
