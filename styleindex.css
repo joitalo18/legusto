@@ -5,19 +5,17 @@ div#menu{
 	width: 800px;
 	height: 35px;
 	margin-left: 100px;
-	margin-top: 25px;
+	margin-top: 35px;
 	margin: auto;
-
-	
-
 }
 
 div#menu ul { 
 	width: 800px;
 	height: 35px;
-	border: 4px solid black;
+	border: 2px solid black;
 	background-color:#D3D3D3;
 	opacity:0.80;
+	margin-top: 40px;
 }
 div#menu ul li{
 	display: inline;
@@ -31,9 +29,6 @@ div#menu ul li a{
 	padding: 20px 30px;
 	color:black;
 	font-weight: 50;
-	
-
-
 }
 /*efeito quando passa a seta no link*/
 div#menu ul li a:hover{
@@ -43,12 +38,17 @@ div#menu ul li a:hover{
 	padding: 14px 40px;
 
 }
-
+/*edição da logo*/
 div.logoo img.logo{
 
 	margin-top: 25px; 
 	margin-left: 350px;
 	border-radius: 100%;
+	
+}
+div.logoo{
+	background-color: #D3D3D3;
+	opacity: 0.80;
 }
 
 body{
@@ -57,33 +57,25 @@ body{
 	width: 1030px;
 	background-attachment: fixed;
 }
+/*edição dos parágrafos*/
 .parag{
-	background-color:#D3D3D3;
-	opacity:0.80;
+	font-size:23px;
+	font-family: tahoma;
 }
 table{
-	background-color:0;
-	margin-top: 45px;
-
+	
+	margin-top: 40px;
 }
-div table caption#tablehead {
-	font-size: 25px;
-	font-family: tahoma;
-	background-color: #D3D3D3;
-	opacity:0.80;
-
-}
-
 .img:hover{
+
 opacity: 0.75;
 
 }
-div#intro p#introd{
-	font-family: tahoma;
-	font-size: 20px;
-	background-color:#D3D3D3; 
+.promocoes{
+	background-color: #D3D3D3;
 	opacity: 0.80;
-	padding-left: 110px;
-	margin-top: 45px;
+}
 
+#whomade {
+	color: white;
 }
