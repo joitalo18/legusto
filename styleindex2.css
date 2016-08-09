@@ -1,0 +1,119 @@
+
+/*posicionamento do bloco de links*/
+div#menu{
+
+	width: 50em;
+	height: 2.188em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.563em;
+	margin: auto;
+	display: block;
+	
+
+}
+
+div#menu ul { 
+	width: 800px;
+	height: 35px;
+	border: 4px solid black;
+	background-color:#D3D3D3;
+	opacity:0.80;
+}
+div#menu ul li{
+	display: inline;
+}
+/*edição do texto-link*/
+div#menu ul li a{
+	text-decoration: none;
+	letter-spacing: 5px;
+	font-family: tahoma;
+	font-size: 14px;
+	padding: 20px 30px;
+	color:black;
+	font-weight: 50;
+	
+
+
+}
+/*efeito quando passa a seta no link*/
+div#menu ul li a:hover{
+	background-color: #800000;
+	width: 600px;
+	height: 35px;
+	padding: 14px 40px;
+
+}
+
+div.logoo img.logo{
+
+	margin-top: 25px; 
+	margin-left: 350px;
+	border-radius: 100%;
+}
+
+body{
+	line-height: 35px;
+	margin: auto;
+	width: 1030px;
+	background-attachment: fixed;
+}
+.parag{
+	background-color:#D3D3D3;
+	opacity:0.80;
+}
+table{
+	background-color:0;
+	margin-top: 45px;
+
+}
+div table caption#tablehead {
+	font-size: 25px;
+	font-family: tahoma;
+	background-color: #D3D3D3;
+	opacity:0.80;
+
+}
+
+.img:hover{
+opacity: 0.75;
+
+}
+div#intro p#introd{
+	font-family: tahoma;
+	font-size: 20px;
+	background-color:#D3D3D3; 
+	opacity: 0.80;
+	padding-left: 110px;
+	margin-top: 45px;
+
+}
+
+.infosFood {
+	color: white;
+}
+
+.footerInfos {
+	color: white;
+}
+
+.AvisoRefri {
+	color: white;
+	font-size: 1em;
+	text-align: center;
+}
+
+#faleConosco {
+	display: block;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: white;*/
+	width: 68em;
+	height: 25em;
+}
+
+#menu {
+	margin-left: auto;
+	margin-right: auto;
+}
