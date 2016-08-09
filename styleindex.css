@@ -2,12 +2,13 @@
 /*posicionamento do bloco de links*/
 div#menu{
 
-	width: 800px;
-	height: 35px;
-	margin-left: 100px;
-	margin-top: 25px;
+	width: 50em;
+	height: 2.188em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.563em;
 	margin: auto;
-
+	display: block;
 	
 
 }
@@ -100,4 +101,18 @@ div#intro p#introd{
 	color: white;
 	font-size: 1em;
 	text-align: center;
+}
+
+#faleConosco {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	width: 68em;
+	height: 35em;
+}
+
+#menu {
+	margin-left: auto;
+	margin-right: auto;
 }
